@@ -6,7 +6,8 @@ public class DataType {
 
         boolean a=true;
         char b='R';
-        byte c=12;
+        byte c='3';
+        char unicode = '\u03A9';
         short d=-365;
         int e = 43543;
         long f= 98765432189L;
@@ -16,6 +17,7 @@ public class DataType {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
         System.out.println("c = " + c);
+        System.out.println("unicode = " + unicode);
         System.out.println("d = " + d);
         System.out.println("e = " + e);
         System.out.println("f = " + f);
