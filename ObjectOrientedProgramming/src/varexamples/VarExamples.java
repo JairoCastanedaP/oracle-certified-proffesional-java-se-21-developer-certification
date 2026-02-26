@@ -24,7 +24,7 @@ public class VarExamples {
         var numbers= new int[5];
 
         //var with lambda
-        Function<String, Integer> function = anyString.length();
+        //Function<String, Integer> function = anyString.length();
         //var function = anyString -> = anyString.length(); // compilation error
 
     }
